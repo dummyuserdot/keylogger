@@ -1,0 +1,6 @@
+{
+  "name": "KeySentinel — Windows Keylogger Detection & Security Monitor",
+  "description": "Defensive Windows security monitor for detecting suspicious keyboard-capture hooks, unauthorized persistence, and configuration tampering with authenticated admin controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

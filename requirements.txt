@@ -1,0 +1,5 @@
+# KeySentinel — Requirements
+# Compatible with Python 3.8+ on Windows 10 and Windows 11
+
+psutil>=5.9.0
+pywin32>=306; platform_system == "Windows"

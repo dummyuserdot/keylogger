@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "detection_rules": {
+    "detect_low_level_keyboard_hooks": true,
+    "detect_raw_input_sinks": true,
+    "detect_polling_getasynckeystate": true,
+    "detect_unverified_startup_persistence": true,
+    "detect_suspicious_temp_executables": true,
+    "detect_process_masquerading": true,
+    "strict_whitelisting_mode": false
+  },
+  "severity_threshold": "MEDIUM",
+  "quarantine_auto_action": false,
+  "whitelisted_pids": [],
+  "whitelisted_names": [
+    "powertoys.keyboardmanagerengine.exe",
+    "discord.exe",
+    "obs64.exe"
+  ]
+}
